@@ -12,3 +12,8 @@ age = {"What is your age?: 26"}
 print(age)
 favourite_color = {"What is your favourite color?: Pink"}
 print(favourite_color)
+
+A = {1, 3, 5}
+B = {1, 2, 3}
+print('Intersection using &:', A & B)
+print('Intersection using intersection():' , A.intersection(B))
